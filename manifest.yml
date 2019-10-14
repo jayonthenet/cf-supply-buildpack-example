@@ -1,0 +1,8 @@
+---
+language: customSupplyBP
+include_files:
+- LICENSE
+- README.md
+- VERSION
+- bin/supply
+- manifest.yml
