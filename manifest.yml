@@ -1,8 +1,15 @@
 ---
 language: customSupplyBP
+dependencies:
+- name: iAmAResource.txt 
+  uri: https://raw.githubusercontent.com/jayonthenet/cf-supply-buildpack-example/master/dependencies/iAmAResource.txt 
+  version: 0.0.1
+  sha256: d502ac17ba7f74b82230400b171eb958579c4d5f4edef75d97367e77b69ad178
 include_files:
 - LICENSE
 - README.md
 - VERSION
 - bin/supply
 - manifest.yml
+exclude_files:
+- iAmAResource.txt
